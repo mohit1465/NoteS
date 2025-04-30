@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Notes Builder</title>
+    <link rel="stylesheet" href="assets/styles/main.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>AI Notes Builder</h1>
+        </header>
+        
+        <main>
+            <div class="input-section">
+                <textarea id="userInput" placeholder="What topic would you like to create notes on?"></textarea>
+                <button id="generateBtn">Generate Notes</button>
+            </div>
+            
+            <div class="progress-section" style="display: none;">
+                <div class="progress-bar">
+                    <div class="progress"></div>
+                </div>
+                <p id="currentStep">Planning your notes...</p>
+            </div>
+
+            <div class="notes-section">
+                <div class="notes-header">
+                    <h2>Generated Notes</h2>
+                    <button id="downloadBtn" style="display: none;">Download Notes</button>
+                </div>
+            </div>
+        </main>
+        
+        <div id="notesOutput"></div>
+
+    </div>
+    <script src="js/config.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
