@@ -110,5 +110,5 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 
 ## Contact
 
-Your Name - [@yourtwitter](https://twitter.com/yourtwitter)
-Project Link: [https://github.com/yourusername/NoteS](https://github.com/yourusername/NoteS)
+- [@CONTACT ME]([(https://mohit1465.github.io/work/)])
+Project Link: [https://github.com/mohit1465/NoteS](https://github.com/mohit1465/NoteS)
